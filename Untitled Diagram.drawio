@@ -1,9 +1,227 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T05:47:55.205Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" version="22.1.18" etag="I4VcLp9aBJvN21mMx1Hw" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T08:20:21.653Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="ffieCufb5XrW6PTfZvIn" version="22.1.18" type="github">
   <diagram name="Page-1" id="RaS_U635jgwuQ6SAFCor">
-    <mxGraphModel>
+    <mxGraphModel dx="1072" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_rIYjth2nmest8zdoUlv-1" value="Unit Testing&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-2" value="Integration Testing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-3" value="End to End Testing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-4" value="Performance Testing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-5" value="Security Testing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="319.13" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="20" as="sourcePoint" />
+            <mxPoint x="160" y="20" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="80" />
+              <mxPoint x="80" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-7" value="When to do?" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;rotation=0;" connectable="0" vertex="1" parent="_rIYjth2nmest8zdoUlv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_rIYjth2nmest8zdoUlv-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="220" as="sourcePoint" />
+            <mxPoint x="160" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-11" value="Who to do?" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="_rIYjth2nmest8zdoUlv-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-13" value="Whenever source code changes&amp;nbsp;( Should be a part of pipeline execution)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-14" value="Developer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="79.05" y="210" as="sourcePoint" />
+            <mxPoint x="160" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="79.14" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-18" value="What should be tested ?" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="_rIYjth2nmest8zdoUlv-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="330" as="sourcePoint" />
+            <mxPoint x="160" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-23" value="Front End MicroApps" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-24" value="Backend Microservices" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="330" as="sourcePoint" />
+            <mxPoint x="160" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-26" value="GraphQL queries" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="420" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="20" as="sourcePoint" />
+            <mxPoint x="460" y="20" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="80" />
+              <mxPoint x="380" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-30" value="When to do?" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;rotation=0;" connectable="0" vertex="1" parent="_rIYjth2nmest8zdoUlv-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-31" value="Whenever source code changes&amp;nbsp;( Should be a part of pipeline execution)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="140" as="sourcePoint" />
+            <mxPoint x="460" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-33" value="Who to do?" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="_rIYjth2nmest8zdoUlv-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-34" value="Developers/QA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-35" value="What should be tested ?" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="379.1309999772187" y="347.9999696250128" as="geometry" />
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-36" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="300" as="sourcePoint" />
+            <mxPoint x="460" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-37" value="Interaction between microapps in the frontend" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="250" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-38" value="Interaction between Java Microservices in the backend" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="320" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-39" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="300" as="sourcePoint" />
+            <mxPoint x="460" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-40" value="GraphQL layer in connecting the frontend and backend" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="410" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-44" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="300" as="sourcePoint" />
+            <mxPoint x="360" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-45" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="_rIYjth2nmest8zdoUlv-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="300" as="sourcePoint" />
+            <mxPoint x="450" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-46" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="20" as="sourcePoint" />
+            <mxPoint x="740" y="20" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="80" />
+              <mxPoint x="660" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-47" value="When to do?" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;rotation=0;" connectable="0" vertex="1" parent="_rIYjth2nmest8zdoUlv-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-48" value="Whenever source code changes ( Should be a part of pipeline execution)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-49" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="140" as="sourcePoint" />
+            <mxPoint x="760" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-50" value="Who to do?" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="_rIYjth2nmest8zdoUlv-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-51" value="Developers/QA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-52" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="210" as="sourcePoint" />
+            <mxPoint x="760" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-53" value="What should be tested" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="_rIYjth2nmest8zdoUlv-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-54" value="Simulate real user scenarios, navigating through multiple microapps, making API calls, and validating the expected outcome" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="250" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-55" value="Event based testing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-56" value="Open Ended Questions" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="690" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-57" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="_rIYjth2nmest8zdoUlv-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="560" as="sourcePoint" />
+            <mxPoint x="520" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-59" value="Authorization, Authentication" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="510" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-60" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="_rIYjth2nmest8zdoUlv-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="560" as="sourcePoint" />
+            <mxPoint x="520" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_rIYjth2nmest8zdoUlv-61" value="Vulnerability, Penetration, Session validation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
