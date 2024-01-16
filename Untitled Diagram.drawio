@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T08:20:21.653Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="ffieCufb5XrW6PTfZvIn" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T10:45:11.221Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="h4cQOeN7Bx-_wqPEuMC1" version="22.1.18" type="github" pages="2">
   <diagram name="Page-1" id="RaS_U635jgwuQ6SAFCor">
     <mxGraphModel dx="1072" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -221,6 +221,146 @@
         </mxCell>
         <mxCell id="_rIYjth2nmest8zdoUlv-61" value="Vulnerability, Penetration, Session validation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8nAlUkbJGsUPXTTDd0I-" name="Page-2">
+    <mxGraphModel dx="1072" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Chbwr19E6H4bOr0OG13T-1" value="Merge Request" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="100" as="sourcePoint" />
+            <mxPoint x="140" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-3" value="Static Code Analysis Testing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="80" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-7" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.67;dx=20;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="90" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="99.5" as="sourcePoint" />
+            <mxPoint x="420" y="99.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-11" value="Unit Tests" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="80" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-12" value="Quality Gate 1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="270" y="80" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-13" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.67;dx=20;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="90" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-15" value="Quality Gate 2" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="550" y="80" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="99.5" as="sourcePoint" />
+            <mxPoint x="700" y="99.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-17" value="Contract Testing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="80" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-18" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.67;dx=20;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="90" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-20" value="Quality Gate 3" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="830" y="80" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="880" y="120" as="sourcePoint" />
+            <mxPoint x="880" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-22" value="Integration&lt;br&gt;Testing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="180" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-23" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.67;dx=20;notch=0;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="790" y="190" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-24" value="Quality Gate 4" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="690" y="180" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="199.5" as="sourcePoint" />
+            <mxPoint x="640" y="199.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-26" value="Component&lt;br&gt;Testing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="180" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-27" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.67;dx=20;notch=0;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="500" y="190" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-28" value="Quality Gate 5" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="400" y="180" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="199.5" as="sourcePoint" />
+            <mxPoint x="350" y="199.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-30" value="Performance&lt;br&gt;Testing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="180" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-31" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.67;dx=20;notch=0;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="220" y="190" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-32" value="Quality Gate 5" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="120" y="180" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="220" as="sourcePoint" />
+            <mxPoint x="160" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-35" value="E2E testing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-36" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.67;dx=20;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="290" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-37" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="299.5" as="sourcePoint" />
+            <mxPoint x="400" y="299.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-38" value="Quality Gate 6" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="250" y="280" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-39" value="Exploratory/UAT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="280" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-40" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.67;dx=20;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="290" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-41" value="Quality Gate 7" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="530" y="280" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-45" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="299.5" as="sourcePoint" />
+            <mxPoint x="680" y="299.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Chbwr19E6H4bOr0OG13T-46" value="Production (Monitoring)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="280" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
